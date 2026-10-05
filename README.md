@@ -2,7 +2,13 @@
 
 [dsh-background-by-model](https://github.com/HarmlessFunny/dsh-background-by-model) 等项目的文档截图素材,按消费方项目分目录。
 
-放在这里而不是插件仓库里,是为了不把二进制图片的长期历史塞进插件仓库的 `.git`。各项目的 README 用 `raw.githubusercontent.com` 绝对地址引用,这样 GitHub 和 npm 页面都能正常显示。
+放在这里而不是插件仓库里,是为了不把二进制图片的长期历史塞进插件仓库的 `.git`。各项目的 README 用 jsDelivr 的绝对地址引用,这样 GitHub 和 npm 页面都能正常显示,而且比 `raw.githubusercontent.com` 在更多网络下可达:
+
+```
+https://cdn.jsdelivr.net/gh/HarmlessFunny/assets@main/<项目目录>/<文件名>
+```
+
+注意 jsDelivr 对分支引用(`@main`)有缓存,图片更新后可能要等缓存过期才生效 —— 所以**文件名别复用**:换图就换个名字(比如加版本后缀),比等缓存靠谱。
 
 ## dsh-background-by-model
 
