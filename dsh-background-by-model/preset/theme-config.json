@@ -1,0 +1,332 @@
+{
+  "rules": [
+    {
+      "id": "r1",
+      "images": [
+        {
+          "slot": "m3",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            191.88931210132625,
+            0.5046198735613555,
+            0.82
+          ]
+        }
+      ],
+      "match": "deepseek",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 5000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r2",
+      "images": [
+        {
+          "slot": "m1",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            263.5122459614382,
+            0.31076923076923096,
+            0.82
+          ]
+        }
+      ],
+      "match": "gpt",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r3",
+      "images": [
+        {
+          "slot": "m2",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            18.923814597762384,
+            0.5486699795381468,
+            0.6
+          ]
+        }
+      ],
+      "match": "claude",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r4",
+      "images": [
+        {
+          "slot": "m4",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            26.25977410947,
+            0.6228354978354975,
+            0.82
+          ]
+        }
+      ],
+      "match": "qwen",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r5",
+      "images": [
+        {
+          "slot": "m5",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            30.15559737458117,
+            0.6552284141830319,
+            0.7646280172718907
+          ]
+        }
+      ],
+      "match": "glm",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r6",
+      "images": [
+        {
+          "slot": "m6",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            229.39645097591443,
+            0.5752269829617896,
+            0.2
+          ]
+        }
+      ],
+      "match": "kimi",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    },
+    {
+      "id": "r7",
+      "images": [
+        {
+          "slot": "m7",
+          "bgMode": "fill",
+          "bgState": {
+            "zoom": 1,
+            "x": 0,
+            "y": 0,
+            "iw": 0,
+            "ih": 0
+          },
+          "color": [
+            217.3791348600509,
+            0.7702645947081058,
+            0.2
+          ]
+        }
+      ],
+      "match": "grok",
+      "enabled": true,
+      "color": null,
+      "wallpaperOpacity": 1,
+      "blur": 0,
+      "rotate": {
+        "enabled": false,
+        "intervalMs": 60000,
+        "order": "order",
+        "advanceOnSwitch": false
+      }
+    }
+  ],
+  "opacities": {
+    "bg": 0,
+    "sidebar": 0.1,
+    "card": 1,
+    "code": 0.81,
+    "input": 0.88
+  },
+  "blurs": {
+    "bg": 0,
+    "sidebar": 0,
+    "card": 0,
+    "settings": 0,
+    "chat": 0,
+    "trajectory": 0,
+    "rightbar": 0,
+    "input": 60
+  },
+  "transition": {
+    "effect": "fade",
+    "easing": "ease",
+    "durationMs": 3000
+  },
+  "settingsOpacity": 1,
+  "chatTextOpacity": 0.35,
+  "trajectoryOpacity": 0.73,
+  "rightbarOpacity": 0.45,
+  "autoExtract": true,
+  "holidays": {
+    "enabled": true,
+    "items": [
+      {
+        "id": "mid-autumn",
+        "images": [
+          {
+            "slot": "h-midautumn",
+            "bgMode": "fill",
+            "bgState": {
+              "zoom": 1,
+              "x": 0,
+              "y": 0,
+              "iw": 0,
+              "ih": 0
+            },
+            "color": [
+              222.85714285714286,
+              0.36,
+              0.3431372549019608
+            ]
+          }
+        ],
+        "match": "",
+        "enabled": true,
+        "color": [
+          222.85714285714286,
+          0.36,
+          0.3431372549019608
+        ],
+        "wallpaperOpacity": 1,
+        "blur": 0,
+        "rotate": {
+          "enabled": false,
+          "intervalMs": 60000,
+          "order": "order",
+          "advanceOnSwitch": false
+        }
+      },
+      {
+        "id": "national-day",
+        "images": [
+          {
+            "slot": "h-nationalday",
+            "bgMode": "fill",
+            "bgState": {
+              "zoom": 1,
+              "x": 0,
+              "y": 0,
+              "iw": 0,
+              "ih": 0
+            },
+            "color": [
+              33.00000000000003,
+              0.9999999999999986,
+              0.9607843137254901
+            ]
+          }
+        ],
+        "match": "",
+        "enabled": true,
+        "color": [
+          33.00000000000003,
+          0.9999999999999986,
+          0.9607843137254901
+        ],
+        "wallpaperOpacity": 1,
+        "blur": 0,
+        "rotate": {
+          "enabled": false,
+          "intervalMs": 60000,
+          "order": "order",
+          "advanceOnSwitch": false
+        }
+      }
+    ]
+  }
+}
